@@ -34,27 +34,31 @@
 
     ?>
 <h2>1. pc</h2>
-Procesor: <?= $computer0['CPU'] ?> <br>
-RAM paměti: <?= $computer0['RAM'] ?> <br>
-Grafická karta: <?= $computer0['GPU'] ?> <br>
-SSD paměti: <?= $computer0['SSD'] ?> <br>
-Základní deska: <?= $computer0['MB'] ?> <br>
-Skříň: <?= $computer0['case'] ?> <br>
-Myš: <?= $computer0['mouse'] ?> <br>
-Sluchátka: <?= $computer0['headphones'] ?> <br>
-Monitor: <?= $computer0['display'] ?> <br>
-Větrák: <?= $computer0['fan'] ?> <br>
+<ul>
+    <li>Procesor: <?= $computer0['CPU'] ?> </li>
+    <li>RAM paměti: <?= $computer0['RAM'] ?> </li>
+    <li>Grafická karta: <?= $computer0['GPU'] ?> </li>
+    <li>SSD paměti: <?= $computer0['SSD'] ?> </li>
+    <li>Základní deska: <?= $computer0['MB'] ?> </li>
+    <li>Skříň: <?= $computer0['case'] ?> </li>
+    <li>Myš: <?= $computer0['mouse'] ?> </li>
+    <li>Sluchátka: <?= $computer0['headphones'] ?> </li>
+    <li>Monitor: <?= $computer0['display'] ?> </li>
+    <li>Větrák: <?= $computer0['fan'] ?> </li>
+</ul>
 
 <h2>2. pc</h2>
-Procesor: <?= $computer1['CPU'] ?> <br>
-RAM paměti: <?= $computer1['RAM'] ?> <br>
-Grafická karta: <?= $computer1['GPU'] ?> <br>
-SSD paměti: <?= $computer1['SSD'] ?> <br>
-Základní deska: <?= $computer1['MB'] ?> <br>
-Skříň: <?= $computer1['case'] ?> <br>
-Myš: <?= $computer1['mouse'] ?> <br>
-Sluchátka: <?= $computer1['headphones'] ?> <br>
-Monitor: <?= $computer1['display'] ?> <br>
-Větrák: <?= $computer1['fan'] ?> <br>
+<ul>
+    <li>Procesor: <?= $computer1['CPU'] ?> </li>
+    <li>RAM paměti: <?= $computer1['RAM'] ?> </li>
+    <li>Grafická karta: <?= $computer1['GPU'] ?> </li>
+    <li>SSD paměti: <?= $computer1['SSD'] ?> </li>
+    <li>Základní deska: <?= $computer1['MB'] ?> </li>
+    <li>Skříň: <?= $computer1['case'] ?> </li>
+    <li>Myš: <?= $computer1['mouse'] ?> </li>
+    <li>Sluchátka: <?= $computer1['headphones'] ?> </li>
+    <li>Monitor: <?= $computer1['display'] ?> </li>
+    <li>Větrák: <?= $computer1['fan'] ?> </li>
+</ul>
 </body>
 </html>
